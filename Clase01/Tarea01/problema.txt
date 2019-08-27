@@ -1,0 +1,27 @@
+Imagina que es el cumpleaños de un amigo, y tus compañeros 
+se organizan para brindarle un festejo por su día.
+Se sabe que al cumpleañero le gusta la pizza casera, 
+y supongamos que tienes las habilidades de un cheff profesional, y deseas prepararla.
+
+Básicamente, realizarías dos tareas para el propósito:
+ir de compras al supermercado más cercano para comprar los ingredientes necesarios (Tarea A), 
+y preparar la pizza (Tarea B).
+
+Supongamos que, para ir al supermercado más cercano debes tomar un bus, 
+y eso toma 20 minutos, 
+y 10 minutos de ese tiempo lo aprovechas para buscar en internet una receta 
+especial para preparar una pizza italiana, 
+al regresar demoras otros 20 minutos.
+
+Al llegar a tu casa, preparas la pizza y transcurre un tiempo total de preparación
+ de 70 minutos. (preparación de ingredientes, amasar, reposar, etc.)
+
+Se pide:
+Simular estas tareas con Node.js calculando el tiempo total de ejecución.
+Aplicar procedimientos secuenciales y concurrentes SEGÚN SEA EL CASO, para eso,
+ definir qué tareas necesitan ejecutarse de forma concurrente o secuencial.
+
+Tener en cuenta para el desarrollo, modo didáctico:
+Lectura de receta: 10 min -> sleep(1000)
+Viaje: 20 min -> sleep(2000)
+Total preparación: 70 min -> sleep(7000)
